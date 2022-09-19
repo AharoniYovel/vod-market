@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <title>Vod</title>
+    <script src="js_vod/appVod.js"></script>
+    <script src="js_vod/vodClass.js"></script>
+
+    <style>
+        body {
+            background: rgba(137, 137, 181, 0.733);
+        }
+
+        #id_input {
+            background: rgba(128, 128, 204, 0.459);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="container-fluid">
+        <div class="container">
+            <div>
+                <h1 class="text-center border border-4 col-3 rounded-pill bg-info mx-auto m-5">VOD Library</h1>
+                <h2>Search:</h2>
+                <input type="search" id="id_input" class="text-white">
+                <button class="btn btn-info" id="search_btn">search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid py-4 mt-4">
+        <div class="container">
+            <h2>list of movies:</h2>
+            <div id="id_parent" class="row">
+
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
